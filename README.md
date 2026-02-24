@@ -2,7 +2,7 @@
 
 # VLAN + Inter-VLAN Routing + DHCP + ACL + Port Security Lab
 
-## 📌 Objective
+##  Objective
 Simulate a small enterprise network with:
 
 - Multiple VLANs
@@ -15,18 +15,18 @@ Simulate a small enterprise network with:
 
 ---
 
-## 🏗 Topology Overview
+##  Topology Overview
 
 - 2 Access Switches
 - 1 Router (Core)
 - VLANs:
-  - VLAN 10 → Sales
-  - VLAN 20 → HR
-  - VLAN 99 → Management
+  - VLAN 10 → HR
+  - VLAN 20 → VOICE
+  - VLAN 99 → IT
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - 802.1Q Trunking
 - Subinterfaces (Router-on-a-Stick)
@@ -37,7 +37,7 @@ Simulate a small enterprise network with:
 
 ---
 
-## 🔐 Security Implementation
+##  Security Implementation
 
 - VLAN 10 denied access to VLAN 99
 - Port Security enabled on access port
@@ -45,7 +45,7 @@ Simulate a small enterprise network with:
 
 ---
 
-## 🧪 Verification Steps
+##  Verification Steps
 
 - `show vlan brief`
 - `show interfaces trunk`
@@ -57,13 +57,13 @@ Simulate a small enterprise network with:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 See `/screenshots` folder.
 
 ---
 
-## 🚀 Skills Demonstrated
+##  Skills Demonstrated
 
 - Layer 2 & Layer 3 integration
 - Traffic segmentation
